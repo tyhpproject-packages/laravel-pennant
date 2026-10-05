@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/laravel-pennant",
+    "description": "Tyhp type definitions for laravel/pennant 1.26.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "1.26.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/laravel-pennant-impl": "~1.26.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/laravel-pennant-impl"
+        }
+    }
+}
